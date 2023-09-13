@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color:rgb(196, 222, 240) ;
+    background-size: cover;
+    background-position: top;
+}
+
+.nav-bar{
+    display: flex;
+    width: 100%;
+    height: 60px;
+   
+    box-shadow: 0px 5px 5px 0px  #101010;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+.back-icon {
+    font-size: 36px;
+    padding: 10px;
+    margin-left: 20px;
+    cursor:pointer;
+}
+.title {
+    font-size: 30px;
+    font-family: 'Monospace', Rockwell;
+    font-weight: 700;
+    color:brown;
+    padding: 10px;
+
+    
+}
+.sirname {
+ font-size: medium;
+ font-family: Arial, Helvetica, sans-serif;
+ color: red;
+ margin-left: 500%;
+ cursor: grabbing;
+ 
+
+ 
+}
+.sub-title {
+    font-size: 18px;
+    font-family: 'Monospace', Rockwell;
+    padding: 10px;
+    padding-top: 22px;
+    color: #0b0a0a;
+}
+.file-name {
+    margin-left: 18%;
+    padding: 17px;
+    font-size: 19px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
